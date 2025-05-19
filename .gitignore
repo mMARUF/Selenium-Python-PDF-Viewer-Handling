@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Test reports
+*.html
+*.xml
+*.log
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Driver binaries (optional, if you want to ignore them)
+drivers/*.exe
+drivers/chromedriver
+drivers/geckodriver
+
+# Downloaded files
+*.pdf
+/Downloads/
+downloaded_pdf/
+
+# Environment variables
+.env
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
